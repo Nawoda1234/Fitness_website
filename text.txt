@@ -1,1 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Header background */
+.contact-header {
+  background-image: url("/image.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #dc0b0b;
+  text-align: center;
+  padding: 100px 50px;
+  position: relative;
+}
+
+.contact-header h1 {
+  font-size: 75px;
+  margin: 0;
+}
+
+.contact-header p {
+  margin-top: 10px;
+  color: #ddd;
+  font-size: 18px;
+}
+
+/* Main section */
+.contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+}
+
+/* Left form */
+.contact-left {
+  flex: 1;
+  min-width: 350px;
+  max-width: 550px;
+}
+
+.contact-left h2 {
+  color: #000;
+}
+
+.contact-left p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+button {
+  width: 100%;
+  background: #8c0404;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #980707;
+}
+
+/* Right side info */
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+  max-width: 350px;
+}
+
+.info-box {
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.info-box img {
+  width: 35px;
+  height: 35px;
+}
+
+.info-box h4 {
+  margin: 0;
+  color: #333;
+}
+
+.info-box p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+.response {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
 text
