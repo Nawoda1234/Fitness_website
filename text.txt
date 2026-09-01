@@ -108,7 +108,7 @@ button:hover {
 
 .info-box p {
   margin: 5px 0 0;
-  color: #555;
+  color: #555;  
 }
 
 .response {
